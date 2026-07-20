@@ -1,3 +1,116 @@
-body {
-  background-color: #DFE6E8;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+#telaInicial {
+  background: linear-gradient(to bottom, #0022A4, #031C7C);
+  max-width: 100% !important;
+  padding: 100px 0 0 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-logo-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box-logo-titulo > h1 {
+  font-size: 50px;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.box-logo-titulo > h1 > span:nth-child(3) {
+  margin-left: -130px;
+}
+
+/* Container principal do menu */
+.menu-rea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  gap: 60px;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Container da imagem */
+.menu-rea > img {
+  width: auto;
+  height: 150px;
+  max-width: 200px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.menu-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.menu-item > div {
+  width: 30px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.menu-item:nth-child(1) > div{
+  background-color: #0095FF;
+}
+.menu-item:nth-child(2) > div{
+  background-color: #28E8C9;
+}
+.menu-item:nth-child(3) > div{
+  background-color: #9AFF29;
+}
+.menu-item:nth-child(4) > div{
+  background-color: #DCE026;
+}
+.menu-item:nth-child(5) > div{
+  background-color: #FFC815;
+}
+
+.menu-item > a {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  margin-left: 15px;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+
+.menu-item > a:hover {
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff;
+}
+
+.fim-secao-inicial {
+  background: linear-gradient(to right, #0095FF, #28E8C9, #8FE633, #DCE026, #FFC815);
+  width: 100%;
+  height: 37px;
+  margin-top: auto;
+  flex-shrink: 0;
 }
