@@ -1,0 +1,60 @@
+/* HEADER */
+
+nav .logo img, 
+nav .nav-link,
+nav .logo img:hover,
+nav .nav-link:hover,
+nav .nav-link:focus {
+  background-color: #F5CF1A;
+}
+
+nav {
+  background-color: #0021A0;
+}
+
+nav .nav-link {
+  color: #0021A0;
+}
+
+
+/* FOOTER */
+/* Cores de fonte + contornos */
+footer {
+  background-color: #212121;
+}
+
+ footer, footer .sharing i {
+  color: #FFF;
+}
+footer .cred-rea>div:not(:first-child) {
+  border-left-color: #FFF;
+}
+footer .aval-rea .btn-secondary {
+  border-color: #FFF;
+}
+@media (max-width: 1199.98px) {
+  footer .sharing i {
+    background-color: #0021A0;
+    color:  white;
+  }
+} 
+footer .aval-rea .btn-secondary:hover,
+footer .aval-rea .btn-secondary:focus {}
+
+/* Cor do ícone de compartilhamento dentro dos círculos. Ajustar para mesma cor do fundo quando utilizado background diferente do padrão ou transparente. */
+/* @media (max-width: 1199.98px) {
+  footer .sharing i {
+    color:  red;
+  } */
+
+/* MAIN */
+main {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media only screen and (max-width: 992px) {
+  main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
