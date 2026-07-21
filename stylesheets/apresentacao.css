@@ -1,9 +1,34 @@
 #apresentacao {
   background-color: #0225CB;
   max-width: 100% !important;
-  padding: 100px 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.icone-titulo-apresentacao {
+  width: 6%;
+}
+
+.box-imagem-final {
+  width: 47%;
+  background-color: #FFF;
+  transform: rotate(-0.88deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  padding: 30px 0;
+}
+
+.imagem-complexo-esportivo {
+  width: 90%;
+}
+
+.fonte-imagem-apresentacao {
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+  font-weight: 300;
 }

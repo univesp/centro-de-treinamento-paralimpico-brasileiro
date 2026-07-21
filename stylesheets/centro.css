@@ -1,0 +1,31 @@
+#comoSurgiuOCentro {
+  background-color: #0225CB;
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.centro-box {
+  display: flex;
+  width: 100%;
+  gap: 0 100px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.centro-titulo-e-conteudo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.conteudo-texto-centro {
+  color: #FFF;
+  font-weight: 300;
+  font-size: 18px;
+  width: 80%;
+}

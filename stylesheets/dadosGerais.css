@@ -1,0 +1,42 @@
+#dadosGerais {
+  background-color: #031C7C;
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.table-box {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabela-dados{
+  border-collapse: collapse;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+  background-color: #FFF;
+  width: 80%;
+  margin-bottom: 100px;
+}
+
+th, td {
+  padding: 20px;
+}
+
+th {
+  color: #156558;
+  font-size: 24px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #B9FFF4;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #A3F3E6;
+}
