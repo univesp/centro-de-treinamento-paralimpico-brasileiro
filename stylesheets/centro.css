@@ -8,12 +8,24 @@
   padding: 50px 0;
 }
 
+#como-surgiu-o-centro-content {
+  width: 80%;
+}
+
 .centro-box {
   display: flex;
   width: 100%;
   gap: 0 100px;
   align-items: center;
   margin-bottom: 100px;
+}
+
+.centro-box > img {
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
 }
 
 .centro-titulo-e-conteudo {
@@ -27,5 +39,12 @@
   color: #FFF;
   font-weight: 300;
   font-size: 18px;
-  width: 80%;
+  width: 100%;
+}
+
+
+@media (max-width: 1352px) {
+  #como-surgiu-o-centro-content {
+    width: 90%;
+  }
 }

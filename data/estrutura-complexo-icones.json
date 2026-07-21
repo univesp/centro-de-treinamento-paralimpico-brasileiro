@@ -1,0 +1,79 @@
+[
+  {
+    "img": "../assets/estrutura-do-complexo/pista_atletismo.svg",
+    "titulo": "Pista oficial de atletismo",
+    "alt": "Pista oficial de atletismo"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/centro_aquatico.svg",
+    "titulo": "Centro aquático",
+    "alt": "Centro aquático"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/ginasio_poliesportivo.svg",
+    "titulo": "Ginásios poliesportivos",
+    "alt": "Ginásios poliesportivos"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/quadras_especializadas.svg",
+    "titulo": "Quadras especializadas",
+    "alt": "Quadras especializadas"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/campo_futebol.svg",
+    "titulo": "Campos de futebol",
+    "alt": "Campos de futebol"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/sala_musculacao.svg",
+    "titulo": "Salas de musculação",
+    "alt": "Salas de musculação"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/laboratorios.svg",
+    "titulo": "Laboratórios de ciências do esporte",
+    "alt": "Laboratórios de ciências do esporte"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/auditorios.svg",
+    "titulo": "Auditórios",
+    "alt": "Auditórios"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/salas_formacao.svg",
+    "titulo": "Salas de formação",
+    "alt": "Salas de formação"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/refeitorio.svg",
+    "titulo": "Refeitório",
+    "alt": "Refeitório"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/lavanderia.svg",
+    "titulo": "Lavanderia",
+    "alt": "Lavanderia"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/area_administrativa.svg",
+    "titulo": "Área administrativa",
+    "alt": "Área administrativa"
+  },
+
+  {
+    "img": "../assets/estrutura-do-complexo/hoteis.svg",
+    "titulo": "Hotel para atletas e delegações",
+    "alt": "Hotel para atletas e delegações"
+  }
+]
