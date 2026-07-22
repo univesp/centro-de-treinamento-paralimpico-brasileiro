@@ -1,0 +1,122 @@
+[
+  {
+    "modalidade": "Atletismo paralímpico",
+    "icone": "../assets/modalidades/atletismo.svg",
+    "alt": "Ícone / ilustração da modalidade Atletismo paralímpico",
+    "texto": "Modalidade que reúne provas de pista, campo e rua, adaptadas para atletas com diferentes tipos de deficiência física, visual e intelectual, conforme suas classes funcionais."
+  },
+  {
+    "modalidade": "Basquete em cadeira de rodas",
+    "icone": "../assets/modalidades/basquete.svg",
+    "alt": "Ícone / ilustração da modalidade Basquete em cadeira de rodas",
+    "texto": "Esporte coletivo disputado por atletas com deficiência física, mantendo regras semelhantes às do basquete convencional, com adaptações para o uso da cadeira de rodas."
+  },
+  {
+    "modalidade": "Badminton paralímpico",
+    "icone": "../assets/modalidades/badminton.svg",
+    "alt": "Ícone / ilustração da modalidade Badminton paralímpico",
+    "texto": "Esporte de raquete rápido e estratégico. Trata-se da versão adaptada para atletas com deficiência física, disputada em diferentes classes, tanto em pé quanto em cadeira de rodas. Também pode ter atletas com deficiência intelectual."
+  },
+  {
+    "modalidade": "Bocha paralímpica",
+    "icone": "../assets/modalidades/bocha.svg",
+    "alt": "Ícone / ilustração da modalidade Bocha paralímpica",
+    "texto": "Esporte de precisão voltado principalmente para atletas com comprometimentos motores severos, no qual o objetivo é lançar bolas o mais próximo possível da bola-alvo."
+  },
+  {
+    "modalidade": "Canoagem paralímpica",
+    "icone": "../assets/modalidades/canoagem.svg",
+    "alt": "Ícone / ilustração da modalidade Canoagem paralímpica",
+    "texto": "Modalidade praticada em caiaques ou canoas adaptados, em provas de velocidade para atletas com deficiência física."
+  },
+  {
+    "modalidade": "Ciclismo paralímpico",
+    "icone": "../assets/modalidades/ciclismo.svg",
+    "alt": "Ícone / ilustração da modalidade Ciclismo paralímpico",
+    "texto": "Inclui provas de estrada e pista disputadas com bicicletas convencionais, handbikes, triciclos e bicicletas tandem para atletas com deficiência visual."
+  },
+  {
+    "modalidade": "Esgrima em cadeira de rodas",
+    "icone": "../assets/modalidades/esgrima.svg",
+    "alt": "Ícone / ilustração da modalidade Esgrima em cadeira de rodas",
+    "texto": "Modalidade em que os atletas competem com cadeiras fixadas ao solo, utilizando florete, espada ou sabre em combates de rapidez e estratégia."
+  },
+  {
+    "modalidade": "Futebol de cegos",
+    "icone": "../assets/modalidades/futebol_cegos.svg",
+    "alt": "Ícone / ilustração da modalidade Futebol de cegos",
+    "texto": "Esporte praticado por atletas com deficiência visual, utilizando uma bola com guizos e orientação sonora para permitir a localização durante o jogo."
+  },
+  {
+    "modalidade": "Futebol PC",
+    "icone": "../assets/modalidades/futebol_pc.svg",
+    "alt": "Ícone / ilustração da modalidade Futebol PC",
+    "texto": "Modalidade destinada a atletas com paralisia cerebral ou condições neurológicas semelhantes, com regras adaptadas para favorecer a participação e o equilíbrio competitivo."
+  },
+  {
+    "modalidade": "Goalball",
+    "icone": "../assets/modalidades/goalball.svg",
+    "alt": "Ícone / ilustração da modalidade Goalball",
+    "texto": "Esporte coletivo exclusivo para atletas com deficiência visual, no qual as equipes tentam marcar gols lançando uma bola sonora em direção à meta  adversária."
+  },
+  {
+    "modalidade": "Halterofilismo paralímpico",
+    "icone": "../assets/modalidades/halterofilismo.svg",
+    "alt": "Ícone / ilustração da modalidade Halterofilismo paralímpico",
+    "texto": "Modalidade de levantamento de peso em que os atletas realizam o supino, demonstrando força máxima da parte superior do corpo."
+  },
+  {
+    "modalidade": "Judô paralímpico",
+    "icone": "../assets/modalidades/judo.svg",
+    "alt": "Ícone / ilustração da modalidade Judô paralímpico",
+    "texto": "Esporte de combate para atletas com deficiência visual, baseado nas regras do judô convencional, com adaptações no início e na condução dos combates."
+  },
+  {
+    "modalidade": "Natação paralímpica",
+    "icone": "../assets/modalidades/natacao.svg",
+    "alt": "Ícone / ilustração da modalidade Natação paralímpica",
+    "texto": "Reúne provas de diferentes estilos e distâncias para atletas com deficiência física, visual ou intelectual, organizados por classes funcionais."
+  },
+  {
+    "modalidade": "Remo paralímpico",
+    "icone": "../assets/modalidades/remo.svg",
+    "alt": "Ícone / ilustração da modalidade Remo paralímpico",
+    "texto": "Modalidade disputada em embarcações adaptadas, com provas de 2.000 metros para atletas com deficiência física, visual ou intelectual."
+  },
+  {
+    "modalidade": "Rúgbi em cadeira de rodas",
+    "icone": "../assets/modalidades/rugbi.svg",
+    "alt": "Ícone / ilustração da modalidade Rúgbi em cadeira de rodas",
+    "texto": "Esporte coletivo de contato praticado por atletas com comprometimento dos membros superiores e inferiores, combinando velocidade, estratégia e trabalho em equipe."
+  },
+  {
+    "modalidade": "Taekwondo paralímpico",
+    "icone": "../assets/modalidades/taekwondo.svg",
+    "alt": "Ícone / ilustração da modalidade Taekwondo paralímpico",
+    "texto": "Modalidade de combate para atletas com deficiência física nos membros superiores, com disputas baseadas em chutes, deslocamentos e tática."
+  },
+  {
+    "modalidade": "Tênis de mesa paralímpico",
+    "icone": "../assets/modalidades/tenis_de_mesa.svg",
+    "alt": "Ícone / ilustração da modalidade Tênis de mesa paralímpico",
+    "texto": "Esporte disputado por atletas com deficiência física ou intelectual, em pé ou em cadeira de rodas, seguindo regras semelhantes às da modalidade convencional."
+  },
+  {
+    "modalidade": "Tênis em cadeira de rodas",
+    "icone": "../assets/modalidades/tenis.svg",
+    "alt": "Ícone / ilustração da modalidade Tênis em cadeira de rodas",
+    "texto": "Versão adaptada do tênis para atletas com deficiência física, permitindo que a bola quique até duas vezes antes de ser rebatida."
+  },
+  {
+    "modalidade": "Triatlo paralímpico",
+    "icone": "../assets/modalidades/triatlo.svg",
+    "alt": "Ícone / ilustração da modalidade Triatlo paralímpico",
+    "texto": "Modalidade que combina natação, ciclismo e corrida, com adaptações e equipamentos específicos conforme a deficiência do atleta."
+  },
+  {
+    "modalidade": "Vôlei sentado",
+    "icone": "../assets/modalidades/volei.svg",
+    "alt": "Ícone / ilustração da modalidade Vôlei sentado",
+    "texto": "Esporte coletivo disputado por atletas com deficiência física, em que os jogadores permanecem sentados durante toda a partida, exigindo agilidade, técnica e coordenação."
+  }
+]

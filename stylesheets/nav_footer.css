@@ -46,12 +46,3 @@ footer .aval-rea .btn-secondary:focus {}
   footer .sharing i {
     color:  red;
   } */
-
-/* MAIN */
-
-@media only screen and (max-width: 992px) {
-  main {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-}

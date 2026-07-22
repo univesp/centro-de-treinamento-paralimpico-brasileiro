@@ -1,0 +1,326 @@
+#modalidadesTreinadas {
+  background-color: #0225CB;
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.modalidades-container {
+  width: 100%;
+  max-width: 1200px; /* Limita a largura máxima */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 colunas de tamanho igual */
+  gap: 30px 20px;
+  margin-top: 70px;
+  padding: 0 20px;
+  justify-items: center;
+  align-items: start;
+  margin-bottom: 100px;
+}
+
+.modalidade-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px 0;
+  position: relative;
+  width: 100%;
+  max-width: 140px; /* Limita a largura máxima do item */
+  min-height: 180px; /* Altura mínima igual para todos */
+}
+
+.modalidade-item-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+  background-color: #FFC815;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 120px;
+  aspect-ratio: 1 / 1; /* Mantém proporção quadrada */
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.modalidade-item-box:hover {
+  transform: scale(1.05);
+}
+
+.modalidade-item-box > img:first-child {
+  width: 80%;
+  height: auto;
+  max-width: 100px;
+  object-fit: contain;
+}
+
+.modalidade-item > span {
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+  font-weight: 600;
+  width: 100%;
+  max-width: 140px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.3;
+  min-height: 40px; /* Altura mínima para o texto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalidade-item-box > .icone-info {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  z-index: 10;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.modalidade-item-box > .icone-info:hover {
+  transform: scale(1.2);
+}
+
+/* Texto modalidade - quadrado branco */
+.texto-modalidade-box {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 250px;
+  transform: translateX(-50%) translateY(10px);
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  min-height: 120px;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 25;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  animation: modalidadeFadeIn 0.3s ease;
+}
+
+/* Seta do balão */
+.texto-modalidade-box::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #FFFFFF;
+}
+
+.texto-modalidade-box.ativo {
+  display: block;
+}
+
+.texto-modalidade-box p {
+  color: #333;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  text-align: left;
+}
+
+/* Scroll personalizado para o texto */
+.texto-modalidade-box::-webkit-scrollbar {
+  width: 4px;
+}
+
+.texto-modalidade-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.texto-modalidade-box::-webkit-scrollbar-thumb {
+  background: #0225CB;
+  border-radius: 10px;
+}
+
+/* Animação de fade in */
+@keyframes modalidadeFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(10px) scale(1);
+  }
+}
+
+/* ============ RESPONSIVO ============ */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+  .modalidades-container {
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 25px 15px;
+  }
+  
+  .modalidade-item {
+    max-width: 130px;
+    min-height: 160px;
+  }
+  
+  .modalidade-item-box {
+    max-width: 110px;
+  }
+  
+  .modalidade-item > span {
+    font-size: 13px;
+    min-height: 36px;
+  }
+}
+
+/* Tablets pequenos */
+@media (max-width: 768px) {
+  .modalidades-container {
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 20px 15px;
+    padding: 0 15px;
+  }
+  
+  .modalidade-item {
+    max-width: 120px;
+    min-height: 150px;
+  }
+  
+  .modalidade-item-box {
+    max-width: 100px;
+    padding: 20px 15px;
+  }
+  
+  .modalidade-item-box > img:first-child {
+    width: 75%;
+  }
+  
+  .modalidade-item > span {
+    font-size: 12px;
+    min-height: 32px;
+  }
+  
+  .modalidade-item-box > .icone-info {
+    width: 28px;
+    height: 28px;
+    right: -8px;
+    bottom: -8px;
+  }
+  
+  .texto-modalidade-box {
+    width: 240px;
+    padding: 15px;
+    left: 200px;
+  }
+  
+  .texto-modalidade-box p {
+    font-size: 13px;
+  }
+}
+
+/* Mobile grande */
+@media (max-width: 576px) {
+  .modalidades-container {
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 15px 10px;
+    padding: 0 10px;
+    margin-top: 40px;
+  }
+  
+  .modalidade-item {
+    max-width: 100px;
+    min-height: 130px;
+  }
+  
+  .modalidade-item-box {
+    max-width: 80px;
+    padding: 15px 10px;
+    border-radius: 15px;
+  }
+  
+  .modalidade-item-box > img:first-child {
+    width: 70%;
+  }
+  
+  .modalidade-item > span {
+    font-size: 11px;
+    min-height: 28px;
+    max-width: 100px;
+  }
+  
+  .modalidade-item-box > .icone-info {
+    width: 24px;
+    height: 24px;
+    right: -6px;
+    bottom: -6px;
+  }
+  
+  .texto-modalidade-box {
+    width: 200px;
+    padding: 12px;
+    left: 150px;
+    min-height: 80px;
+  }
+  
+  .texto-modalidade-box p {
+    font-size: 12px;
+  }
+}
+
+/* Mobile pequeno */
+@media (max-width: 400px) {
+  .modalidades-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    gap: 12px 8px;
+  }
+  
+  .modalidade-item {
+    max-width: 90px;
+    min-height: 120px;
+  }
+  
+  .modalidade-item-box {
+    max-width: 70px;
+    padding: 12px 8px;
+    border-radius: 12px;
+  }
+  
+  .modalidade-item-box > img:first-child {
+    width: 65%;
+  }
+  
+  .modalidade-item > span {
+    font-size: 10px;
+    min-height: 24px;
+    max-width: 90px;
+  }
+  
+  .modalidade-item-box > .icone-info {
+    width: 20px;
+    height: 20px;
+    right: -5px;
+    bottom: -5px;
+  }
+  
+  .texto-modalidade-box {
+    width: 160px;
+    padding: 10px;
+    left: 120px;
+    min-height: 60px;
+  }
+  
+  .texto-modalidade-box p {
+    font-size: 11px;
+  }
+}
