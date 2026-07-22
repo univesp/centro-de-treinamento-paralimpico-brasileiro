@@ -52,10 +52,15 @@
 }
 
 .modalidade-item-box > img:first-child {
-  width: 80%;
+  width: 100%;
   height: auto;
-  max-width: 100px;
+  max-width: 120px;
   object-fit: contain;
+}
+
+.modalidade-item-box > img[src*="futebol_pc.svg"] {
+  width: 50% !important;
+  max-width: 50px !important;
 }
 
 .modalidade-item > span {
