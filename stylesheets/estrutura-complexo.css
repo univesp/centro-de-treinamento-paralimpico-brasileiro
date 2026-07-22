@@ -93,36 +93,59 @@
   display: flex;
   align-items: center;
   gap: 0 30px;
+  width: 100%;
+  position: relative;
 }
 
 .carousel-imagem-titulo > img {
   width: 50%;
   z-index: 2;
   margin-bottom: 50px;
+  flex-shrink: 0;
+}
+
+.carrossel-titulo {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  position: relative;
+  padding-right: 60px; /* Espaço para o ícone */
+  padding-bottom: 40px; /* Espaço para a fonte */
 }
 
 .carrossel-titulo > h3 {
   color: #FFF;
-  font-size: 48px;
+  font-size: clamp(28px, 4vw, 48px);
   text-transform: uppercase;
-  width: 100%;
+  word-wrap: break-word;
+  line-height: 1.2;
+  max-width: 100%;
 }
 
 .carrossel-titulo > hr {
   border: none;
   height: 2px;
   background-color: #DCE026;
-  width: 120%;
+  width: 85%;
   margin-left: -30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .fonte-carousel {
   color: #FFF;
   font-weight: lighter;
-  margin-left: -25px;
-  position: relative;
-  top: 65px;
   font-size: 14px;
+  display: block;
+  margin-top: 5px;
+  position: absolute;
+  bottom: -90px; /* Fixa na parte inferior */
+  left: -25px; /* Alinhada à esquerda */
+  margin: 0;
+}
+
+.carousel-box#carouselItem1 .fonte-carousel {
+  bottom: -65px !important;
 }
 
 .carousel-texto {
@@ -133,10 +156,14 @@
 }
 
 #carrossel-icone {
-  width: 25%;
-  position: relative;
-  top: -180px;
-  left: -50px;
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  position: absolute;
+  right: -50px; /* Alinhado à direita */
+  top: 5%;
+  transform: translateY(-50%);
+  z-index: 10;
 }
 
 .carousel-controller {
@@ -156,6 +183,21 @@
   border-radius: 50%;
   background-color: #DCE026;
   cursor: pointer;
+}
+
+.mini-carousel-controls {
+  position: absolute;
+  bottom: 50px;
+  left: 25%;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 8px 20px;
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
 }
 
 /* Responsivo */
