@@ -1,0 +1,27 @@
+#referencias {
+  background: linear-gradient(to bottom, #F5F5F5, #C8D1FF);
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.referencias-item-container {
+  margin-left: 17%; 
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.referencias-item-container > p {
+  width: 75%;
+}
+
+@media (max-width: 1550px) {
+  .referencias-item-container > p {
+    width: 85%;
+  }
+}
