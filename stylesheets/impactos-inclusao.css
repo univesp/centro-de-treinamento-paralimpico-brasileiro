@@ -1,0 +1,123 @@
+#impactosInclusao {
+  background: linear-gradient(to bottom, #F5F5F5, #C8D1FF);
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.card-impactos-container, .voce-sabia-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card-impactos-box {
+  background-color: #0225CB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0;
+  width: auto;
+  max-width: 80%;
+  border-right: 10px solid #FFC815;
+}
+
+.card-impactos-box > ul {
+  width: 75%;
+  margin-top: 10px;
+  margin-right: 60px;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  list-style: none; /* Remove os bullets padrão */
+}
+
+.card-impactos-box > ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 5px; /* Espaçamento vertical entre os itens */
+  line-height: 1.6;
+}
+
+/* Cria o bullet personalizado */
+.card-impactos-box > ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  background-color: #FFC815;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.voce-sabia-container{
+  margin-top: 100px !important;
+}
+
+.voce-sabia-box {
+  background-color: #FFC815;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 5px 0;
+}
+
+.voce-sabia-box > span {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20%;
+}
+
+.voce-sabia-box > img {
+  position: absolute;
+  right: 45px;
+  top: -5px;
+}
+
+.cards-voce-sabia-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; /* Permite quebra de linha */
+  justify-content: center;
+  margin-top: 50px;
+  gap: 30px 80px; /* Espaçamento entre os cards */
+  max-width: 900px; /* Limita a largura máxima para centralizar melhor */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.cards-voce-sabia-item {
+  padding: 40px 20px;
+  border-radius: 0 15px 15px 15px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.cards-voce-sabia-item > p {
+  color: #FFF;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.cards-voce-sabia-item:nth-child(1),
+.cards-voce-sabia-item:nth-child(4) {
+  background-color: #0225CB;
+}
+.cards-voce-sabia-item:nth-child(2),
+.cards-voce-sabia-item:nth-child(3) {
+  background-color: #031C7C;
+}
