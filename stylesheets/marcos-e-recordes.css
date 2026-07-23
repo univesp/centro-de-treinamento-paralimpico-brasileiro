@@ -1,0 +1,91 @@
+#marcosERecordes {
+  background-color: #0225CB;
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.recordistas-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 80px 0;
+  margin-bottom: 100px;
+}
+
+.recordistas-item {
+  display: flex;
+  align-items: flex-end;
+}
+
+.foto-recordista {
+  width: 250px;
+}
+
+.recordista-info-container {
+  background-color: #031C7C;
+  position: relative;
+  height: 170px;
+  width: 700px;
+  padding: 40px 50px;
+}
+
+.nome-recordista {
+  width: auto;
+  padding: 5px 15px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 160px;
+  left: 0px;
+  white-space: nowrap; /* Impede que o texto quebre (opcional) */
+}
+
+.recordistas-item:nth-child(odd) > .recordista-info-container > .nome-recordista {
+  background-color: #32E641;
+}
+
+.recordistas-item:nth-child(even) > .recordista-info-container > .nome-recordista {
+  background-color: #FFC815;
+}
+
+.recordistas-item:nth-child(odd) > .recordista-info-container > .infos-recordista > .modalidade-recordista {
+  color: #32E641;
+}
+
+.recordistas-item:nth-child(even) > .recordista-info-container > .infos-recordista > .modalidade-recordista {
+  color: #FFC815;
+}
+
+.nome-recordista > span {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.modalidade-recordista {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.texto-recordista {
+  color: #FFF;
+  font-weight: 300;
+  width: 85%;
+}
+
+.trovao-icone-recordistas {
+  position: absolute;
+  right: -20px;
+  bottom: -30px;
+}
