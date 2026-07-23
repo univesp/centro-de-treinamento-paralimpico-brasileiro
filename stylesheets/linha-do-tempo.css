@@ -1,0 +1,272 @@
+#linhaDoTempo {
+  background: linear-gradient(to bottom, #172B79, #04091D);
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.icone-titulo-linha-do-tempo {
+  width: 3.5%;
+}
+
+.linha-do-tempo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0 50px;
+  margin-right: 5%;
+}
+
+.linha-do-tempo-itens-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+.ldt-info-box {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ldt-esquerda {
+  margin-right: 5px;
+}
+
+.ldt-esquerda > .ldt-info-box:nth-child(1) {
+  margin-top: 275px;
+}
+
+.ldt-direita > .ldt-info-box:nth-child(2) {
+  margin-top: 375px;
+}
+
+.ldt-esquerda > .ldt-info-box:nth-child(2) {
+  margin-top: 360px;
+}
+
+.ldt-direita > .ldt-info-box:nth-child(3) {
+  margin-top: 385px;
+}
+
+.ldt-esquerda > .ldt-info-box:nth-child(3) {
+  margin-top: 406px;
+}
+
+.ldt-direita > .ldt-info-box:nth-child(4) {
+  margin-top: 403px;
+}
+
+.ldt-esquerda > .ldt-info-box:nth-child(4) {
+  margin-top: 385px;
+}
+
+
+.ldt-direita > .ldt-info-box > .ldt-ano {
+  background-color: #32E641;
+}
+.ldt-esquerda > .ldt-info-box > .ldt-ano {
+  background-color: #FFC815;
+}
+
+.ldt-direita > .ldt-info-box:nth-child(1) > .ldt-ano,
+.ldt-esquerda > .ldt-info-box:nth-child(2) > .ldt-ano,
+.ldt-direita > .ldt-info-box:nth-child(3) > .ldt-ano,
+.ldt-direita > .ldt-info-box:nth-child(4) > .ldt-ano,
+.ldt-esquerda > .ldt-info-box:nth-child(4) > .ldt-ano {
+  width: 40%;
+}
+
+.ldt-direita > .ldt-info-box:nth-child(2) > .ldt-ano {
+  width: 55%;
+}
+
+.ldt-esquerda > .ldt-info-box:nth-child(1) > .ldt-ano,
+.ldt-esquerda > .ldt-info-box:nth-child(3) > .ldt-ano {
+  width: 68%;
+}
+
+.ldt-ano {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.ldt-texto {
+  width: 480px;
+  background-color: #FFF;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.ldt-texto > p {
+  margin-top: 5%;
+  width: 88%;
+}
+
+.span-data-2016 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+
+/* ============ ANIMAÇÃO LINHA DO TEMPO ============ */
+
+/* Estado inicial - invisível */
+.ldt-info-box.ldt-hidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Estado visível */
+.ldt-info-box.visivel {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Efeitos específicos para cada lado (opcional) */
+.ldt-esquerda .ldt-info-box.ldt-hidden {
+  transform: translateX(-50px) translateY(30px);
+}
+
+.ldt-esquerda .ldt-info-box.visivel {
+  transform: translateX(0) translateY(0);
+}
+
+.ldt-direita .ldt-info-box.ldt-hidden {
+  transform: translateX(50px) translateY(30px);
+}
+
+.ldt-direita .ldt-info-box.visivel {
+  transform: translateX(0) translateY(0);
+}
+
+/* Delay para criar efeito cascata */
+.ldt-esquerda .ldt-info-box:nth-child(1) { transition-delay: 0.1s; }
+.ldt-esquerda .ldt-info-box:nth-child(2) { transition-delay: 0.3s; }
+.ldt-esquerda .ldt-info-box:nth-child(3) { transition-delay: 0.5s; }
+.ldt-esquerda .ldt-info-box:nth-child(4) { transition-delay: 0.7s; }
+
+.ldt-direita .ldt-info-box:nth-child(1) { transition-delay: 0.2s; }
+.ldt-direita .ldt-info-box:nth-child(2) { transition-delay: 0.4s; }
+.ldt-direita .ldt-info-box:nth-child(3) { transition-delay: 0.6s; }
+.ldt-direita .ldt-info-box:nth-child(4) { transition-delay: 0.8s; }
+
+/* Animação suave para o ano e texto */
+.ldt-info-box.visivel .ldt-ano,
+.ldt-info-box.visivel .ldt-texto {
+  transition: all 0.5s ease;
+}
+
+.ldt-info-box.ldt-hidden .ldt-ano {
+  transform: scale(0.8);
+}
+
+.ldt-info-box.visivel .ldt-ano {
+  transform: scale(1);
+}
+
+
+@media (max-width: 1670px) {
+  .linha-do-tempo-container {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1249px) {
+  .linha-do-tempo-container {
+    gap: 0 20px;
+    margin-right: 0;
+    padding: 0 20px;
+  }
+
+  .ldt-info-box {
+    max-width: 90%;
+  }
+
+  .ldt-texto {
+    width: 350px;
+    padding: 12px 20px;
+  }
+
+  .ldt-texto > p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .ldt-ano {
+    font-size: 32px;
+    padding: 8px 12px;
+  }
+
+  /* Ajustes de margin-top */
+  .ldt-direita > .ldt-info-box:nth-child(1) {
+    margin-top: 90px;
+  }
+
+  .ldt-esquerda > .ldt-info-box:nth-child(1) {
+    margin-top: 370px;
+  }
+
+  .ldt-direita > .ldt-info-box:nth-child(2) {
+    margin-top: 420px;
+  }
+
+  .ldt-esquerda > .ldt-info-box:nth-child(2) {
+    margin-top: 420px;
+  }
+
+  .ldt-direita > .ldt-info-box:nth-child(3) {
+    margin-top: 435px;
+  }
+
+  .ldt-esquerda > .ldt-info-box:nth-child(3) {
+    margin-top: 462px;
+  }
+
+  .ldt-direita > .ldt-info-box:nth-child(4) {
+    margin-top: 460px;
+  }
+
+  .ldt-esquerda > .ldt-info-box:nth-child(4) {
+    margin-top: 440px;
+  }
+
+  /* Ajustes de largura dos anos */
+  .ldt-direita > .ldt-info-box:nth-child(1) > .ldt-ano,
+  .ldt-esquerda > .ldt-info-box:nth-child(2) > .ldt-ano,
+  .ldt-direita > .ldt-info-box:nth-child(3) > .ldt-ano,
+  .ldt-direita > .ldt-info-box:nth-child(4) > .ldt-ano,
+  .ldt-esquerda > .ldt-info-box:nth-child(4) > .ldt-ano {
+    width: 50%;
+  }
+
+  .ldt-direita > .ldt-info-box:nth-child(2) > .ldt-ano {
+    width: 65%;
+  }
+
+  .ldt-esquerda > .ldt-info-box:nth-child(1) > .ldt-ano,
+  .ldt-esquerda > .ldt-info-box:nth-child(3) > .ldt-ano {
+    width: 78%;
+  }
+
+  .linha-do-tempo-container > div:nth-child(2) img {
+    width: auto;
+  }
+
+  .linha-do-tempo-itens-container {
+    margin-top: 80px;
+  }
+}

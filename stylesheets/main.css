@@ -1,20 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  overflow-x: hidden;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
-}
-
-p {
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-}
-
 #telaInicial {
   background: linear-gradient(to bottom, #0022A4, #031C7C);
   max-width: 100% !important;
