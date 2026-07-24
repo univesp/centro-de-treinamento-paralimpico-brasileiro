@@ -19,6 +19,73 @@ p {
   width: 100%;
   padding: 20px 0 50px 0;
   margin-left: 3%;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-button {
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.menu-button:hover {
+  transform: scale(1.1);
+}
+
+.menu-button img {
+  transition: transform 0.3s ease;
+  width: 32px;
+  height: 32px;
+}
+
+.menu-dropdown-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.menu-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #FFFFFF;
+  min-width: 250px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  padding: 8px 0;
+  z-index: 1000;
+  margin-top: -50px;
+  animation: menuFadeIn 0.3s ease;
+}
+
+.menu-dropdown a {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+}
+
+.menu-dropdown a:hover {
+  background-color: #F5F5F5;
+  border-left-color: #FFC815;
+  padding-left: 30px;
+}
+
+@keyframes menuFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .conteudo-section {
