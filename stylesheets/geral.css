@@ -131,3 +131,32 @@ p {
   gap: 15px 0;
   margin: 50px 0 150px 0;
 }
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .conteudo-section {
+    width: 85%;
+  }
+  .conteudo-texto {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .titulo-section {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1450px) {
+  .conteudo-section {
+    width: 85%;
+  }
+  .conteudo-texto {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .titulo-section {
+    margin-bottom: 50px;
+  }
+}

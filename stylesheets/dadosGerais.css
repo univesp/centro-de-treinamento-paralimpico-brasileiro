@@ -40,3 +40,24 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
   background-color: #A3F3E6;
 }
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .table-box {
+    width: 85%;
+  }
+
+  .tabela-dados {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1450px) {
+  .table-box {
+    width: 80%;
+  }
+
+  .tabela-dados {
+    width: 100%;
+  }
+}

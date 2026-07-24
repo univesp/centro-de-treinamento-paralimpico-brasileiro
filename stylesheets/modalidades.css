@@ -99,7 +99,7 @@
   display: none;
   position: absolute;
   top: 50%;
-  left: 250px;
+  left: 150px;
   transform: translateX(-50%) translateY(10px);
   background-color: #FFFFFF;
   border-radius: 12px;
@@ -327,5 +327,30 @@
   
   .texto-modalidade-box p {
     font-size: 11px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* Ajusta a posição dos popups para os itens 4, 8, 12, 16 e 20 */
+  .modalidade-item:nth-child(4) .texto-modalidade-box,
+  .modalidade-item:nth-child(8) .texto-modalidade-box,
+  .modalidade-item:nth-child(12) .texto-modalidade-box,
+  .modalidade-item:nth-child(16) .texto-modalidade-box,
+  .modalidade-item:nth-child(20) .texto-modalidade-box {
+    left: auto !important;
+    right: 0 !important;
+    transform: translateX(0) translateY(10px) !important;
+  }
+}
+
+@media (max-width: 1599px) {
+  /* Ajusta a posição dos popups para os itens 4, 8, 12, 16 e 20 */
+  .modalidade-item:nth-child(5) .texto-modalidade-box,
+  .modalidade-item:nth-child(10) .texto-modalidade-box,
+  .modalidade-item:nth-child(15) .texto-modalidade-box,
+  .modalidade-item:nth-child(20) .texto-modalidade-box {
+    left: auto !important;
+    right: 0 !important;
+    transform: translateX(0) translateY(10px) !important;
   }
 }

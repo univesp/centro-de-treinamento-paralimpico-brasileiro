@@ -13,6 +13,10 @@
   margin-bottom: 25px;
 }
 
+.titulo-estrutura {
+  margin-left: 1.3%;
+}
+
 .icones-estrutura-container {
   width: 100%;
   display: flex;
@@ -270,5 +274,97 @@
   
   .icones-estrutura-item > span {
     font-size: 9px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .icone-titulo-estrutura-complexo {
+    width: 10%;
+  }
+
+  .titulo-estrutura {
+    margin-left: 2.5%;
+  }
+
+  #tituloEstrutura {
+    margin-bottom: 30px;
+  }
+
+  #carrossel-icone {
+    width: 25%;
+    right: -28px;
+  }
+
+  .carousel-box {
+    width: 95%;
+  }
+
+  .carrossel-titulo h3 {
+    width: 100% !important;
+  }
+
+  .carrossel-titulo > hr {
+    width: 100%;
+  }
+
+  .carousel-box#carouselItem1 .fonte-carousel {
+    bottom: -10px !important;
+  }
+
+  .fonte-carousel {
+    bottom: -30px;
+  }
+}
+
+@media (min-width: 1451px) and (max-width: 1670px) {
+  .carrossel-titulo h3 {
+    width: 100% !important;
+  }
+
+  .carousel-box#carouselItem1 .fonte-carousel {
+    bottom: -15px !important;
+  }
+
+  .fonte-carousel {
+    bottom: -40px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1450px) {
+  .icone-titulo-estrutura-complexo {
+    width: 10%;
+  }
+
+  .titulo-estrutura {
+    margin-left: 2%;
+  }
+
+  #tituloEstrutura {
+    margin-bottom: 30px;
+  }
+
+  #carrossel-icone {
+    width: 25%;
+    right: -28px;
+  }
+
+  .carousel-box {
+    width: 95%;
+  }
+
+  .carrossel-titulo h3 {
+    width: 100% !important;
+  }
+
+  .carrossel-titulo > hr {
+    width: 100%;
+  }
+
+  .carousel-box#carouselItem1 .fonte-carousel {
+    bottom: -22px !important;
+  }
+
+  .fonte-carousel {
+    bottom: -50px;
   }
 }

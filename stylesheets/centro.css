@@ -20,6 +20,14 @@
   margin-bottom: 100px;
 }
 
+.centro-imagem-desktop {
+  display: block;
+}
+
+.centro-imagem-mobile {
+  display: none;
+}
+
 .centro-box > img {
   width: 50%;
   max-width: 500px;
@@ -46,5 +54,41 @@
 @media (max-width: 1352px) {
   #como-surgiu-o-centro-content {
     width: 90%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .centro-imagem-desktop {
+    display: none;
+  }
+
+  .centro-imagem-mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .centro-box {
+    flex-direction: column;
+  }
+
+  .centro-box > img {
+    margin-bottom: 50px;
+  }
+
+  #tituloComoSurgiuOCentro {
+    margin-bottom: 35px;
+    justify-content: center;
+  }
+
+  .centro-box > img {
+    max-width: 100%;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1450px) {
+  .centro-box {
+    gap: 0 50px;
   }
 }

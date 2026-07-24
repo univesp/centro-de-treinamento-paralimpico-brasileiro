@@ -32,3 +32,16 @@
   color: #FFF;
   font-weight: 300;
 }
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .icone-titulo-apresentacao {
+    width: 8%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1450px) {
+  .icone-titulo-apresentacao {
+    width: 8%;
+  }
+}

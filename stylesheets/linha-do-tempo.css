@@ -270,3 +270,16 @@
     margin-top: 80px;
   }
 }
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .icone-titulo-linha-do-tempo {
+    width: 5.5%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1450px) {
+  .icone-titulo-linha-do-tempo {
+    width: 4.5%;
+  }
+}

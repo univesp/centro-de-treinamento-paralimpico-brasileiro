@@ -31,7 +31,7 @@
 .recordista-info-container {
   background-color: #031C7C;
   position: relative;
-  height: 170px;
+  height: 171px;
   width: 700px;
   padding: 40px 50px;
 }
@@ -88,4 +88,27 @@
   position: absolute;
   right: -20px;
   bottom: -30px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .recordista-info-container {
+    width: 550px;
+    height: auto;
+    min-height: 190px;
+    padding: 20px 50px;
+  }
+
+  .texto-recordista {
+    width: 90%;
+  }
+
+  .infos-recordista {
+    position: relative;
+    top: 25px;
+  }
+
+  .nome-recordista {
+    bottom: 165px;
+  }
 }
