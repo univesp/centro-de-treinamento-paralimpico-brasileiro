@@ -1,46 +1,46 @@
 [
   {
     "nome": "Petrúcio Ferreira",
-    "foto": "../assets/marcos-e-recordes/petrucio-ferreira.png",
+    "foto": "assets/marcos-e-recordes/petrucio-ferreira.png",
     "alt": "Petrúcio Ferreira sorri amplamente enquanto comemora em uma pista esportiva de atletismo. Ele está envolto na bandeira do Brasil, que cobre os ombros e parte do corpo, com as cores verde, amarelo e azul em destaque. Com o braço esquerdo erguido, segura um chapéu marrom acima da cabeça em gesto de celebração. Veste uma camiseta esportiva verde com detalhes em amarelo e parte da palavra “BRASIL” visível na parte frontal. No braço esquerdo há uma pequena tatuagem em formato de coração. O rosto está voltado levemente para cima, transmitindo alegria e orgulho. Ao fundo, a pista azul aparece desfocada, com linhas brancas diagonais que reforçam o ambiente esportivo. A iluminação é natural e destaca a expressão feliz da pessoa e as cores vibrantes da bandeira brasileira.",
     "modalidade": "Atletismo - T47",
     "texto": "Consagrou-se como o atleta paralímpico mais rápido do mundo na pista do CT, estabelecendo em 2022 os recordes mundiais dos 100m (10s29) e dos 200m (20s83).",
-    "icone-trovao": "../assets/trovao.svg"
+    "icone-trovao": "assets/trovao.svg"
   },
 
   {
     "nome": "Beth Gomes",
-    "foto": "../assets/marcos-e-recordes/beth-gomes.png",
+    "foto": "assets/marcos-e-recordes/beth-gomes.png",
     "alt": "A atleta Beth Gomes sorri diretamente para a câmera em um ambiente de competição esportiva. Ela veste uma regata esportiva azul com diferentes tons e estampas, contendo logotipos de patrocinadores e da delegação brasileira. Seus braços estão erguidos em um gesto de celebração, embora apenas parte deles apareça na imagem. Ao fundo, há um placar desfocado com grandes números pretos sobre placas brancas, sugerindo o registro de um resultado da prova. A expressão é de felicidade e satisfação, e a iluminação natural destaca o rosto da atleta. A fotografia é um enquadramento fechado, focado no busto e no rosto, transmitindo o momento de comemoração após a competição.",
     "modalidade": "Atletismo - F52/F53",
     "texto": "A multicampeã é a recordista absoluta no local, com impressionantes 17 recordes mundiais registrados em provas de arremesso e lançamento.",
-    "icone-trovao": "../assets/trovao2.svg"
+    "icone-trovao": "assets/trovao2.svg"
   },
 
   {
     "nome": "Gabriel Araújo / Gabrielzinho",
-    "foto": "../assets/marcos-e-recordes/gabriel-araujo.png",
+    "foto": "assets/marcos-e-recordes/gabriel-araujo.png",
     "alt": "Foto colorida do atleta Gabrielzinho na piscina, próximo à borda da raia, sorrindo de forma descontraída com a língua para fora em um gesto de celebração e bom humor. Ele usa touca de natação amarela e óculos de natação com armação rosa e lentes escuras. Apenas a cabeça, o pescoço e parte dos ombros aparecem acima da água azul, que apresenta pequenas ondulações e reflexos da luz. À frente do atleta, uma raia flutuante vermelha atravessa a imagem na horizontal, delimitando a pista de natação. O enquadramento é fechado e destaca a expressão alegre e espontânea do atleta logo após a prova ou durante um momento de comemoração na piscina.",
     "modalidade": "Natação - S2",
     "texto": "O nadador mineiro acumulou oito recordes mundiais nas piscinas do complexo paralímpico.",
-    "icone-trovao": "../assets/trovao.svg"
+    "icone-trovao": "assets/trovao.svg"
   },
 
   {
     "nome": "Wanna Brito",
-    "foto": "../assets/marcos-e-recordes/wanna-brito.png",
+    "foto": "assets/marcos-e-recordes/wanna-brito.png",
     "alt": "A atleta Wanna Brito sorri para a câmera enquanto segura a bandeira do Brasil estendida atrás do corpo, formando um grande pano verde, amarelo e azul ao redor dos ombros. Ela veste uma regata esportiva verde com detalhes em azul e amarelo, com a palavra “BRASIL” em destaque no peito e logotipos de patrocinadores na parte inferior. Seus cabelos escuros estão presos e alguns fios são levados pelo vento, reforçando a sensação de movimento. Ao fundo, desfocado, aparecem a pista e as arquibancadas de um estádio de atletismo, além de bandeiras de diferentes países. O enquadramento destaca a expressão alegre da atleta e o gesto de comemoração, transmitindo orgulho e celebração após uma competição.",
     "modalidade": "Atletismo - F32",
     "texto": "Quebrou o recorde mundial do arremesso de peso por mais de uma vez dentro do centro de treinamento.",
-    "icone-trovao": "../assets/trovao2.svg"
+    "icone-trovao": "assets/trovao2.svg"
   },
 
   {
     "nome": "Rayane Soares",
-    "foto": "../assets/marcos-e-recordes/rayane-soares.png",
+    "foto": "assets/marcos-e-recordes/rayane-soares.png",
     "alt": "A atleta Rayane Soares sorri amplamente enquanto comemora diante de uma grande bandeira do Brasil estendida ao fundo. Ela está de braços abertos, segurando as extremidades da bandeira, em uma postura de celebração. Veste uniforme esportivo nas cores amarelo e azul, com a palavra “BRASIL” estampada no peito. Na cintura, há um número de identificação da prova com o nome “Rayane Soares da Silva” e a identificação do evento de atletismo. Seus cabelos claros estão presos em um coque alto, e ela usa brincos e um colar. A expressão transmite alegria e entusiasmo após a competição. O enquadramento mostra a atleta da cintura para cima, com a bandeira preenchendo quase todo o fundo da imagem e reforçando o clima de conquista e orgulho esportivo.",
     "modalidade": "Atletismo - T13",
     "texto": "Bateu marcas mundiais nos 100m e 200m durante o Troféu Brasil sediado no CT.",
-    "icone-trovao": "../assets/trovao.svg"
+    "icone-trovao": "assets/trovao.svg"
   }
 ]

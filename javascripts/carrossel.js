@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   // ============ CARREGAR CARROSSEL DO JSON ============
   function loadCarousel() {
-    fetch('../data/carrossel-estrutura.json')
+    fetch('data/carrossel-estrutura.json')
         .then(response => response.json())
         .then(data => {
             const container = document.querySelector('.carousel-estrutura-container');
@@ -72,7 +72,7 @@ $(document).ready(function(){
                 // Ícone do carrossel
                 const icone = document.createElement('img');
                 icone.id = 'carrossel-icone';
-                icone.src = '../assets/carrossel-icone.svg';
+                icone.src = 'assets/carrossel-icone.svg';
                 icone.alt = '';
 
                 // Monta o carousel-imagem-titulo

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // ============ CARREGAR RECORDISTAS DO JSON ============
   function loadRecordistas() {
-      fetch('../data/marcos-e-recordes.json')
+      fetch('data/marcos-e-recordes.json')
           .then(response => response.json())
           .then(data => {
               const container = document.querySelector('.recordistas-container');

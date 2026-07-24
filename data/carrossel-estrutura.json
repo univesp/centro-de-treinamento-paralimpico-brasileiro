@@ -1,7 +1,7 @@
 [
   {
     "titulo": "Prédio administrativo e sede do CPB",
-    "img1": "../assets/carrossel-estrutura/predio-adm-sede-cpb.png",
+    "img1": "assets/carrossel-estrutura/predio-adm-sede-cpb.png",
     "alt1": "Edifício circular que abriga a sede administrativa do Comitê Paralímpico Brasileiro, um dos ícones arquitetônicos do complexo.",
     "img2": "",
     "alt2": "",
@@ -11,7 +11,7 @@
   },
   {
     "titulo": "Pista Oficial de Atletismo",
-    "img1": "../assets/carrossel-estrutura/pista-oficial-atletismo.png",
+    "img1": "assets/carrossel-estrutura/pista-oficial-atletismo.png",
     "alt1": "Vista da pista oficial de atletismo do Centro de Treinamento Paralímpico Brasileiro. Em primeiro plano, aparecem as raias vermelhas da pista com marcações brancas para corridas. Ao lado da pista, há uma área verde destinada às provas de campo. Ao fundo, observa-se uma arquibancada coberta com estrutura metálica e assentos distribuídos em fileiras. O céu está claro e a iluminação natural destaca a amplitude e a modernidade das instalações esportivas. A imagem transmite a dimensão do complexo e sua preparação para treinamentos e competições de alto rendimento.",
     "img2": "",
     "alt2": "",
@@ -21,9 +21,9 @@
   },
   {
     "titulo": "Centro Aquático",
-    "img1": "../assets/carrossel-estrutura/centro-aquatico.png",
+    "img1": "assets/carrossel-estrutura/centro-aquatico.png",
     "alt1": "Fotografia colorida em plano médio e ângulo normal, capturada a partir da borda de uma piscina olímpica coberta. A imagem registra o momento exato em que quatro nadadores saltam dos blocos de partida em direção à água, congelados no ar durante o início de uma competição de natação.",
-    "img2": "../assets/carrossel-estrutura/centro-aquatico2.png",
+    "img2": "assets/carrossel-estrutura/centro-aquatico2.png",
     "alt2": "Piscina coberta com várias raias de treinamento, estrutura metálica azul no teto, amplas janelas laterais e rampa acessível com corrimão ao redor da área de circulação.",
     "fonte": "Fonte: Ale Cabral/cpb.org (2021).",
     "fonte2": "Fonte: Ale Cabral/cpb.org (2022).",
@@ -31,9 +31,9 @@
   },
   {
     "titulo": "Complexo Poliesportivo",
-    "img1": "../assets/carrossel-estrutura/complexo-poliesportivo.png",
+    "img1": "assets/carrossel-estrutura/complexo-poliesportivo.png",
     "alt1": "Quadra coberta de futebol adaptado com gramado sintético, atletas em atividade, espectadores na arquibancada e estrutura esportiva acessível iluminada por luz natural.",
-    "img2": "../assets/carrossel-estrutura/complexo-poliesportivo2.png",
+    "img2": "assets/carrossel-estrutura/complexo-poliesportivo2.png",
     "alt2": "Imagem de uma partida de vôlei sentado realizada em uma quadra coberta. Em primeiro plano, atletas de duas equipes disputam uma jogada próxima à rede. Todos os jogadores estão sentados no piso da quadra, característica própria da modalidade paralímpica. A equipe mais próxima da câmera veste uniformes verdes com detalhes escuros. Alguns atletas estão posicionados com os braços erguidos, preparados para bloquear ou receber a bola. Um dos jogadores, de costas para a câmera, tem a inscrição “São Paulo” e “Atleta” estampadas na camiseta. Outro atleta utiliza uniforme amarelo com o número 7 nas costas. Do lado oposto da rede, atletas com uniformes escuros acompanham a trajetória da bola. No centro da imagem, uma bola de vôlei nas cores amarela, azul e roxa está suspensa no ar, indicando um momento de intensa disputa. A quadra possui piso em tons de laranja e azul, com linhas brancas que delimitam as áreas de jogo. Uma rede atravessa horizontalmente a imagem, separando as equipes. Ao fundo, observam-se dois árbitros ou oficiais da competição em pé, acompanhando a partida. A parede posterior é pintada em tom roxo e apresenta um grande painel artístico com a figura estilizada de uma pessoa com os braços erguidos, simbolizando movimento, esporte e inclusão. Próximo à parede há diversas bolas organizadas para treinamento ou competição. A imagem transmite dinamismo, trabalho em equipe e superação, evidenciando a prática do vôlei sentado, modalidade paralímpica que permite a participação de atletas com deficiência física em competições de alto rendimento.",
     "fonte": "Fonte: Marcello Zambrana/cpb.org.br",
     "fonte2": "Fonte: jornalzonasul.com.br (2024).",

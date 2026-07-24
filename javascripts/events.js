@@ -19,7 +19,7 @@ $(document).ready(function(){
 
   // ============ CARREGAR ÍCONES DA ESTRUTURA DO COMPLEXO ============
   function loadEstruturaIcones() {
-    fetch('../data/estrutura-complexo-icones.json')
+    fetch('data/estrutura-complexo-icones.json')
       .then(response => response.json())
       .then(data => {
         const container = document.getElementById('iconesEstrutura');
@@ -72,7 +72,7 @@ $(document).ready(function(){
 
   // ============ CARREGAR MODALIDADES DO JSON ============
   function loadModalidades() {
-    fetch('../data/modalidades.json')
+    fetch('data/modalidades.json')
       .then(response => response.json())
       .then(data => {
         const container = document.querySelector('.modalidades-container');
@@ -99,7 +99,7 @@ $(document).ready(function(){
           // Cria o ícone de informação
           const iconeInfo = document.createElement('img');
           iconeInfo.className = 'icone-info';
-          iconeInfo.src = '../assets/icone-info.png';
+          iconeInfo.src = 'assets/icone-info.png';
           iconeInfo.alt = 'Clique para mais informações';
           iconeInfo.dataset.target = `texto${index + 1}`;
 
