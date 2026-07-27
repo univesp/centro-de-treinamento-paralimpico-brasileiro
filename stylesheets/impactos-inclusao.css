@@ -121,3 +121,9 @@
 .cards-voce-sabia-item:nth-child(3) {
   background-color: #031C7C;
 }
+
+@media (max-width: 991px) {
+  .cards-voce-sabia-container {
+    gap: 30px 30px;
+  }
+}

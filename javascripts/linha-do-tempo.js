@@ -54,4 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('load', function() {
       setTimeout(checkVisibleOnLoad, 500);
   });
+
+
+  
 });

@@ -112,3 +112,21 @@
     bottom: 165px;
   }
 }
+
+@media (max-width: 991px) {
+  .foto-recordista {
+    width: 25%;
+  }
+
+  .recordista-info-container {
+    height: 220px;
+  }
+
+  .recordistas-item {
+    align-items: center;
+  }
+
+  .nome-recordista {
+    bottom: 190px;
+  }
+}

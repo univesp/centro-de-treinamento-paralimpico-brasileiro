@@ -1,8 +1,5 @@
 html {
   scroll-behavior: smooth;
-}
-
-body {
   overflow-x: hidden;
 }
 
@@ -158,5 +155,32 @@ p {
 
   .titulo-section {
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .box-logo-titulo > img {
+    width: 20%;
+  }
+
+  .box-logo-titulo > h1 {
+    font-size: 48px;
+  }
+
+  .conteudo-section {
+    width: 85%;
+  }
+
+  .conteudo-texto {
+    width: 95%;
+    margin-left: 0;
+  }
+
+  .titulo-section {
+    margin-bottom: 30px;
+  }
+
+  .titulo-section > h3 {
+    font-size: 45px;
   }
 }

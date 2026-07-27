@@ -61,3 +61,17 @@ tbody tr:nth-child(even) {
     width: 100%;
   }
 }
+
+@media (max-width: 991px) {
+  .icone-titulo-dadosGerais {
+    width: 6%;
+  }
+
+  .table-box {
+    width: 85%;
+  }
+
+  .tabela-dados {
+    width: 100%;
+  }
+}

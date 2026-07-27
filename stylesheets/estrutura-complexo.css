@@ -368,3 +368,68 @@
     bottom: -50px;
   }
 }
+
+@media (max-width: 991px) {
+  .icone-titulo-estrutura-complexo {
+    width: 10%;
+  }
+
+  .titulo-estrutura {
+    margin-left: 2%;
+  }
+
+  #tituloEstrutura {
+    margin-bottom: 30px;
+  }
+
+  #carrossel-icone {
+    display: none;
+  }
+
+  .carousel-imagem-titulo {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .carousel-imagem-titulo > img {
+    width: 100%;
+  }
+
+  .carousel-box {
+    width: 95%;
+  }
+
+  .carrossel-titulo {
+    padding-right: 0;
+    padding-bottom: 25px;
+  }
+
+  .carrossel-titulo h3 {
+    width: 70% !important;
+    margin-left: 5%;
+  }
+
+  .carrossel-titulo > hr {
+    display: none;
+  }
+
+  .carousel-texto {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .carousel-box#carouselItem1 .fonte-carousel {
+    top: -45px !important;
+    left: 70%;
+  }
+
+  .fonte-carousel {
+    top: -45px;
+    left: 68%;
+  }
+
+  .mini-carousel-controls {
+    bottom: 130px;
+    left: 50%;
+  }
+}

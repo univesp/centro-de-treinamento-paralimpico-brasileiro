@@ -45,3 +45,9 @@
     width: 8%;
   }
 }
+
+@media (max-width: 991px) {
+  .icone-titulo-apresentacao {
+    width: 9%;
+  }
+}

@@ -92,3 +92,27 @@
     gap: 0 50px;
   }
 }
+
+@media (max-width: 991px) {
+  .icone-titulo-centro {
+    width: 10%;
+  }
+
+  .centro-box {
+    flex-direction: column;
+  }
+
+  .centro-box > img {
+    margin-bottom: 50px;
+  }
+
+  #tituloComoSurgiuOCentro {
+    margin-bottom: 35px;
+    justify-content: start;
+  }
+
+  .centro-box > img {
+    max-width: 100%;
+    width: 85%;
+  }
+}

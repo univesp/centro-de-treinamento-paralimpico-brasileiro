@@ -354,3 +354,9 @@
     transform: translateX(0) translateY(10px) !important;
   }
 }
+
+@media (max-width: 991px) {
+  #iconeModalidades {
+    width: 20%;
+  }
+}

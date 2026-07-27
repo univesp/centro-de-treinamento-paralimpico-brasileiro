@@ -8,6 +8,11 @@
   padding: 50px 0;
 }
 
+#tituloSectionReferencias {
+  margin-left: 17%; 
+  margin-bottom: 40px;
+}
+
 .referencias-item-container {
   margin-left: 17%; 
   margin-bottom: 100px;
@@ -23,5 +28,19 @@
 @media (max-width: 1550px) {
   .referencias-item-container > p {
     width: 85%;
+  }
+}
+
+@media (max-width: 991px) {
+  .referencias-item-container {
+    margin-left: 5%;
+  }
+
+  .referencias-item-container > p {
+    width: 95%;
+  }
+
+  #tituloSectionReferencias {
+    margin-left: 5%;
   }
 }
