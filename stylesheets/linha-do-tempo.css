@@ -336,3 +336,23 @@
     margin-top: 100px;
   }
 }
+
+@media (max-width: 799px) {
+  .icone-titulo-linha-do-tempo {
+    width: 6%;
+  }
+}
+
+@media (max-width: 699px) {
+  .ldt-ano {
+    font-size: 38px;
+  }
+
+  .ldt-texto {
+    width: 395px;
+  }
+
+  .linha-do-tempo-container-mobile {
+    gap: 0;
+  }
+}

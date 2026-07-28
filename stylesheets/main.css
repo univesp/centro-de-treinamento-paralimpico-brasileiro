@@ -106,3 +106,30 @@
   margin-top: auto;
   flex-shrink: 0;
 }
+
+
+@media (max-width: 799px) {
+  .box-logo-titulo {
+    flex-direction: column;
+  }
+
+  .box-logo-titulo > img {
+    width: 30%;
+  }
+
+  .box-logo-titulo > h1 > span:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .menu-box {
+    flex: none;
+  }
+
+  .menu-rea > img {
+    display: none;
+  }
+
+  .box-logo-titulo > h1 {
+    font-size: 45px;
+  }
+}

@@ -184,3 +184,13 @@ p {
     font-size: 45px;
   }
 }
+
+@media (max-width: 799px) {
+  .titulo-section > h3 {
+    font-size: 42px;
+  }
+
+  .conteudo-texto {
+    width: 100%;
+  }
+}

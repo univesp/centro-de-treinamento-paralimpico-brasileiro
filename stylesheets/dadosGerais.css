@@ -75,3 +75,9 @@ tbody tr:nth-child(even) {
     width: 100%;
   }
 }
+
+@media (max-width: 799px) {
+  .table-box {
+    width: 95%;
+  }
+}

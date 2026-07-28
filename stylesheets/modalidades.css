@@ -226,7 +226,7 @@
   .texto-modalidade-box {
     width: 240px;
     padding: 15px;
-    left: 200px;
+    left: 125px;
   }
   
   .texto-modalidade-box p {
@@ -321,7 +321,7 @@
   .texto-modalidade-box {
     width: 160px;
     padding: 10px;
-    left: 120px;
+    left: 100px;
     min-height: 60px;
   }
   
@@ -343,7 +343,7 @@
   }
 }
 
-@media (max-width: 1599px) {
+@media (min-width: 1025px) and (max-width: 1599px) {
   /* Ajusta a posição dos popups para os itens 4, 8, 12, 16 e 20 */
   .modalidade-item:nth-child(5) .texto-modalidade-box,
   .modalidade-item:nth-child(10) .texto-modalidade-box,

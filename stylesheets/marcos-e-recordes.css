@@ -130,3 +130,33 @@
     bottom: 190px;
   }
 }
+
+@media (max-width: 767px) {
+  .recordista-info-container {
+    width: 500px;
+    height: auto;
+  }
+
+  .trovao-icone-recordistas {
+    display: none;
+  }
+
+  .recordistas-item {
+    position: relative;
+  }
+
+  .foto-recordista {
+    position: absolute;
+    z-index: 200;
+    left: 75%;
+    top: 70%;
+  }
+
+  .nome-recordista {
+    bottom: 92%;
+  }
+
+  .recordistas-container {
+    gap: 130px 0;
+  }
+}

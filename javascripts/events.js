@@ -193,7 +193,6 @@ $(document).ready(function(){
           });
         } else {
           popup.css({
-            'left': '50%',
             'right': 'auto',
             'transform': 'translateX(-50%) translateY(10px)'
           });

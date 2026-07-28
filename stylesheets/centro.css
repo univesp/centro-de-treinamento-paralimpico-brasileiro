@@ -116,3 +116,15 @@
     width: 85%;
   }
 }
+
+@media (min-width: 739px) and (max-width: 799px) {
+  .icone-titulo-centro {
+    width: 10%;
+  }
+}
+
+@media (max-width: 738px) {
+  .icone-titulo-centro {
+    width: 17%;
+  }
+}

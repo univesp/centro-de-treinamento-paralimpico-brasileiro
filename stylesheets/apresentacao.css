@@ -51,3 +51,13 @@
     width: 9%;
   }
 }
+
+@media (max-width: 799px) {
+  .icone-titulo-apresentacao {
+    width: 11%;
+  }
+
+  .box-imagem-final {
+    width: 60%;
+  }
+}

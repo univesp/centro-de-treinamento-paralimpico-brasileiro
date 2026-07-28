@@ -229,7 +229,7 @@
   }
   
   .icones-estrutura-item > img {
-    width: 50%;
+    width: 80%;
   }
   
   .icones-estrutura-item > span {
@@ -420,16 +420,37 @@
 
   .carousel-box#carouselItem1 .fonte-carousel {
     top: -45px !important;
-    left: 70%;
+    left: auto !important;
+    right: 10px;
   }
 
   .fonte-carousel {
     top: -45px;
-    left: 68%;
+    left: auto !important;
+    right: 10px;
   }
 
   .mini-carousel-controls {
     bottom: 130px;
     left: 50%;
+  }
+}
+
+@media (max-width: 799px) {
+  .icone-titulo-estrutura-complexo {
+    width: 15%;
+    margin-right: 2%;
+  }
+
+  .carrossel-titulo {
+    padding-top: 20px;
+  }
+
+  .carrossel-titulo > h3 {
+    width: 80% !important;
+  }
+
+  .mini-carousel-controls {
+    bottom: 150px;
   }
 }
