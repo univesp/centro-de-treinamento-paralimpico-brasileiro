@@ -133,3 +133,13 @@
     font-size: 45px;
   }
 }
+
+@media (max-width: 599px) {
+  .box-logo-titulo > h1 {
+    font-size: 38px;
+  }
+
+  .box-logo-titulo > img {
+    width: 40%;
+  }
+}

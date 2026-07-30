@@ -1,6 +1,10 @@
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+}
+
+body {
+  overflow-x: hidden !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -192,5 +196,15 @@ p {
 
   .conteudo-texto {
     width: 100%;
+  }
+}
+
+@media (max-width: 599px) {
+  .titulo-section > h3 {
+    font-size: 36px;
+  }
+
+  .conteudo-section {
+    width: 90%;
   }
 }

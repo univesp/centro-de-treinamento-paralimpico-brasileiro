@@ -133,3 +133,14 @@
     max-width: 90%;
   }
 }
+
+@media (max-width: 599px) {
+  .card-impactos-box {
+    max-width: 90%;
+    padding: 20px 0;
+  }
+
+  .card-impactos-container {
+    margin-top: 30px;
+  }
+}

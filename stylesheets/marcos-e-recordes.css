@@ -160,3 +160,18 @@
     gap: 130px 0;
   }
 }
+
+@media (max-width: 599px) {
+  .recordistas-container {
+    width: 100%;
+  }
+
+  .recordista-info-container {
+    width: 440px;
+  }
+
+  .foto-recordista {
+    left: 78%;
+    top: 80%;
+  }
+}
