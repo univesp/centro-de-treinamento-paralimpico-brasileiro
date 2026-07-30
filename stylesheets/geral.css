@@ -208,3 +208,17 @@ p {
     width: 90%;
   }
 }
+
+@media (max-width: 499px) {
+  .conteudo-section {
+    width: 95%;
+  }
+
+  .titulo-section > h3 {
+    font-size: 31px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}

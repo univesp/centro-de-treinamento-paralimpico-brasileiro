@@ -67,3 +67,9 @@
     width: 75%;
   }
 }
+
+@media (max-width: 499px) {
+  .box-imagem-final {
+    width: 90%;
+  }
+}

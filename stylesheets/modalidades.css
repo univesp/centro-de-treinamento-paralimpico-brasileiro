@@ -249,7 +249,7 @@
   }
   
   .modalidade-item-box {
-    max-width: 80px;
+    max-width: 70px;
     padding: 15px 10px;
     border-radius: 15px;
   }
@@ -286,7 +286,7 @@
 /* Mobile pequeno */
 @media (max-width: 400px) {
   .modalidades-container {
-    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    grid-template-columns: repeat(4, 1fr); /* 2 colunas */
     gap: 12px 8px;
   }
   

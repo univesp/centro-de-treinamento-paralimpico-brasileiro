@@ -25,45 +25,63 @@ $(document).ready(function(){
         const container = document.getElementById('iconesEstrutura');
         if (!container) return;
 
-        // Limpa o container para evitar duplicação
-        container.innerHTML = '';
-        
-        // Organizar em grupos de 5, 4, 4
-        const grupos = [];
-        const tamanhos = [5, 4, 4];
-        let index = 0;
-        
-        tamanhos.forEach(tamanho => {
-          const grupo = data.slice(index, index + tamanho);
-          if (grupo.length > 0) {
-            grupos.push(grupo);
-          }
-          index += tamanho;
-        });
-        
-        // Criar as linhas
-        grupos.forEach((grupo) => {
-          const linha = document.createElement('div');
-          linha.className = 'icones-linha';
+        // Função para renderizar os ícones
+        function renderizarIcones() {
+          // Limpa o container
+          container.innerHTML = '';
           
-          grupo.forEach(item => {
-            const divItem = document.createElement('div');
-            divItem.className = 'icones-estrutura-item';
-            
-            const img = document.createElement('img');
-            img.src = item.img;
-            img.alt = item.alt;
-            
-            const span = document.createElement('span');
-            span.textContent = item.titulo;
-            
-            divItem.appendChild(img);
-            divItem.appendChild(span);
-            linha.appendChild(divItem);
+          // Verifica a largura da tela
+          const larguraTela = window.innerWidth;
+          let tamanhos;
+          
+          if (larguraTela <= 499) {
+            tamanhos = [4, 4, 3, 2];
+          } else {
+            tamanhos = [5, 4, 4];
+          }
+          
+          // Organizar em grupos
+          const grupos = [];
+          let index = 0;
+          
+          tamanhos.forEach(tamanho => {
+            const grupo = data.slice(index, index + tamanho);
+            if (grupo.length > 0) {
+              grupos.push(grupo);
+            }
+            index += tamanho;
           });
           
-          container.appendChild(linha);
-        });
+          // Criar as linhas
+          grupos.forEach((grupo) => {
+            const linha = document.createElement('div');
+            linha.className = 'icones-linha';
+            
+            grupo.forEach(item => {
+              const divItem = document.createElement('div');
+              divItem.className = 'icones-estrutura-item';
+              
+              const img = document.createElement('img');
+              img.src = item.img;
+              img.alt = item.alt;
+              
+              const span = document.createElement('span');
+              span.textContent = item.titulo;
+              
+              divItem.appendChild(img);
+              divItem.appendChild(span);
+              linha.appendChild(divItem);
+            });
+            
+            container.appendChild(linha);
+          });
+        }
+
+        // Renderiza inicialmente
+        renderizarIcones();
+
+        // Adiciona listener para redimensionamento
+        window.addEventListener('resize', renderizarIcones);
       })
       .catch(error => {
         console.error('Erro ao carregar os ícones da estrutura:', error);

@@ -143,3 +143,23 @@
     width: 40%;
   }
 }
+
+@media (max-width: 499px) {
+  .box-logo-titulo > h1 {
+    font-size: 34px;
+  }
+
+  .menu-item > a {
+    font-size: 22px;
+  }
+
+  .box-logo-titulo > img {
+    width: 45%;
+  }
+}
+
+@media (max-width: 449px) {
+  .box-logo-titulo > h1 {
+    font-size: 30px;
+  }
+}

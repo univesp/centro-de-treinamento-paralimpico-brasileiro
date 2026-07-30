@@ -384,3 +384,42 @@
     margin-top: 120px;
   }
 }
+
+@media (max-width: 499px) {
+  .icone-titulo-linha-do-tempo {
+    width: 8%;
+  }
+
+  .linha-do-tempo-itens-container {
+    margin-right: 50px;
+  }
+
+  .ldt-texto {
+    width: 280px;
+  }
+
+  .ldt-texto > p {
+    font-size: 15px !important;
+  }
+
+  .ldt-ano {
+    font-size: 24px;
+  }
+
+  .ldt-direita > .ldt-info-box:nth-child(3) > .ldt-ano {
+    width: 75%;
+  }
+
+  .ldt-direita > .ldt-info-box:nth-child(2) {
+    margin-top: 120px;
+  }
+
+  .ldt-direita > .ldt-info-box:nth-child(3),
+  .ldt-direita > .ldt-info-box:nth-child(4),
+  .ldt-direita > .ldt-info-box:nth-child(5),
+  .ldt-direita > .ldt-info-box:nth-child(6),
+  .ldt-direita > .ldt-info-box:nth-child(7),
+  .ldt-direita > .ldt-info-box:nth-child(8) {
+    margin-top: 145px;
+  }
+}

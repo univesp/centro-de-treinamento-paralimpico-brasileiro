@@ -243,7 +243,7 @@
   }
   
   .icones-linha {
-    gap: 20px;
+    gap: 23px;
   }
   
   .icones-estrutura-item {
@@ -256,24 +256,6 @@
   
   .icones-estrutura-item > span {
     font-size: 10px;
-  }
-}
-
-@media (max-width: 400px) {
-  .icones-linha {
-    gap: 15px;
-  }
-  
-  .icones-estrutura-item {
-    width: 60px;
-  }
-  
-  .icones-estrutura-item > img {
-    width: 40%;
-  }
-  
-  .icones-estrutura-item > span {
-    font-size: 9px;
   }
 }
 
@@ -472,5 +454,62 @@
 @media (max-width: 522px) {
   .carousel-box:nth-child(4) > .carousel-imagem-titulo > .mini-carousel-controls {
     bottom: 175px;
+  }
+}
+
+@media (max-width: 499px) {
+  .icones-linha {
+    gap: 50px;
+  }
+  
+  .icones-estrutura-item {
+    width: 60px;
+  }
+  
+  .icones-estrutura-item > img {
+    width: 100%;
+  }
+  
+  .icones-estrutura-item > span {
+    font-size: 9px;
+  }
+
+  .carrossel-titulo > h3 {
+    font-size: 24px;
+    width: 90% !important;
+  }
+
+  .fonte-carousel {
+    font-size: 12px;
+  }
+
+  .mini-carousel-controls {
+    bottom: 135px;
+  }
+
+  .carousel-box:nth-child(4) > .carousel-imagem-titulo > .mini-carousel-controls {
+    bottom: 135px;
+  }
+
+  .bullet-carousel {
+    width: 22px;
+    height: 22px;
+  }
+
+  img[src="assets/seta-esquerda.svg"],
+  img[src="assets/seta-direita.svg"] {
+    width: 11%;
+  }
+}
+
+@media (max-width: 444px) {
+  .icones-linha {
+    gap: 35px;
+  }
+}
+
+@media (max-width: 427px) {
+  .carousel-box:nth-child(4) > .carousel-imagem-titulo > .mini-carousel-controls {
+    bottom: 165px;
   }
 }
