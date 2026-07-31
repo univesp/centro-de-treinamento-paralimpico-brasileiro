@@ -138,3 +138,9 @@
     width: 24%;
   }
 }
+
+@media (max-width: 399px) {
+  .icone-titulo-centro {
+    width: 17%;
+  }
+}

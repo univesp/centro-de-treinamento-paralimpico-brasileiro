@@ -163,3 +163,17 @@
     font-size: 30px;
   }
 }
+
+@media (max-width: 399px) {
+  .menu-box {
+    margin-bottom: 130px;
+  }
+
+  .box-logo-titulo > h1 {
+    font-size: 28px;
+  }
+
+  .box-logo-titulo > img {
+    width: 40%;
+  }
+}

@@ -81,3 +81,9 @@ tbody tr:nth-child(even) {
     width: 95%;
   }
 }
+
+@media (max-width: 399px) {
+  .icone-titulo-dadosGerais {
+    width: 8%;
+  }
+}

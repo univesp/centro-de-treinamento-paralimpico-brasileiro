@@ -38,6 +38,9 @@
 
   .referencias-item-container > p {
     width: 95%;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
 
   #tituloSectionReferencias {
@@ -53,5 +56,11 @@
 
   .referencias-item-container > p {
     font-size: 16px !important;
+  }
+}
+
+@media (max-width: 399px) {
+  .referencias-item-container > p {
+    font-size: 15px !important;
   }
 }

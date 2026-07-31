@@ -193,3 +193,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 399px) {
+  .foto-recordista {
+    left: 74%;
+  }
+}
